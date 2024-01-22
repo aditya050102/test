@@ -3,24 +3,17 @@ namespace Assignment1Exercise1
 {
     class Program
     {
-        static void Main(string[] args) { (
-        {   
-            
-
-            Console.Write("Enter an integeger:");}
-                
+        static void Main(string[] args)
+        {         
+            Console.Write("Enter an integeger:");
             string input = Console.ReadLine();
             int num1 = int.Parse(input);
             Console.WriteLine("After using int.parse:" + num1);
             
-
-
             Console.Write("Enter an integer again:");
             string input1 = Console.ReadLine();
             int num2 = Convert.ToInt32(input1);
             Console.WriteLine("After using Convert.ToInt :" + num2);
-
-
 
             Console.Write("Enter an integer again:");
             string input3 = Console.ReadLine();
