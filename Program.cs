@@ -1,30 +1,31 @@
 ﻿using System;
-{
-    { 
+
+
+
 namespace Assignment1Exercise1
 {
-
-
-    class Program
+    class          Program
     {
+
 
 
         static void Main(string[] args)
         {
-
            
-            Console.Write("Enter an integeger:");
-            { 
-            string input = Console.ReadLine();
+            Console.Write("Enter an                                      iger:");
+            string input = Console.ReadLine                 ();
             int num1 = int.Parse(input);
-            Console.WriteLine("After using int.parse:" + num1);
-            Console.Write("Enter an integer again:");
+            Console.WriteLine("After using int.parse:" + num1);                 
+
+            
+            Console.Write("Enter an integer aga                   in:");
             string input1 = Console.ReadLine();
             int num2 = Convert.ToInt32(input1);
             Console.WriteLine("After using Convert.ToInt :" + num2);
 
+            
             Console.Write("Enter an integer again:");
-            string input3 = Console.ReadLine();
+            string input3 = Console.ReadLine                                 ();
             int num3;
             if (int.TryParse(input3, out num3))
             {
@@ -32,13 +33,17 @@ namespace Assignment1Exercise1
             }
             else
             {
-                Console.WriteLine("Invalid input.Please enter an integer");
+                Console.WriteLine("Invalid input.Please                an integer");
+
             }
-            
+
+           
             Console.Write("Enter a Float value:");
-            string input4 = Console.ReadLine         ();
+            string input4 = Console.ReadLine                 ();
             float num4 = float.Parse(input4);
             Console.WriteLine("After using float.parse:" + num4);
+
+
             
             Console.Write("Enter a Float value again:");
             string input5 = Console.ReadLine();
@@ -54,9 +59,14 @@ namespace Assignment1Exercise1
             }
             else
             {
-                Console.WriteLine("Invalid input.Please enter a float value");
+                Console.WriteLine("Invalid input.Please enter a                float value");
+
             }
-          
+
+              
+
+
+
             Console.Write("Enter a boolean value:");
 
             string boolInput1 = Console.ReadLine();
@@ -74,11 +84,11 @@ namespace Assignment1Exercise1
             {
                 Console.WriteLine("invalid input" + e.Message);
             }
-            
 
 
 
 
+         
             Console.Write("Enter a Boolean value:");
             string boolInput2 = Console.ReadLine();
 
@@ -105,11 +115,14 @@ namespace Assignment1Exercise1
             else
             {
                 Console.WriteLine("Invalid input.Please enter a boolean(true or false)");
-            }
-           Console.ReadLine();
 
+            }
+
+
+            Console.ReadLine();
 
 
         }
+
     }
 }
