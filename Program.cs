@@ -1,24 +1,16 @@
 ﻿using System;
-{ 
+{
+    { 
 namespace Assignment1Exercise1
 {
-
-
-
 
 
     class Program
     {
 
 
-
-
-
         static void Main(string[] args)
         {
-
-
-
 
            
             Console.Write("Enter an integeger:");
@@ -26,11 +18,6 @@ namespace Assignment1Exercise1
             string input = Console.ReadLine();
             int num1 = int.Parse(input);
             Console.WriteLine("After using int.parse:" + num1);
-            
-
-
-
-
             Console.Write("Enter an integer again:");
             string input1 = Console.ReadLine();
             int num2 = Convert.ToInt32(input1);
@@ -88,6 +75,10 @@ namespace Assignment1Exercise1
                 Console.WriteLine("invalid input" + e.Message);
             }
             
+
+
+
+
             Console.Write("Enter a Boolean value:");
             string boolInput2 = Console.ReadLine();
 
@@ -116,6 +107,9 @@ namespace Assignment1Exercise1
                 Console.WriteLine("Invalid input.Please enter a boolean(true or false)");
             }
            Console.ReadLine();
+
+
+
         }
     }
 }
